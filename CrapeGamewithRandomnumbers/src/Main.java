@@ -12,11 +12,7 @@ public class Main{
 
     static int comeOutRoll()
     {
-        Scanner input=new Scanner(System.in);
-          char ch;
-          System.out.println("press R to roll the dices");
-          ch=input.next().charAt(0);
-          if(ch=='r'||ch=='R'){
+
         int dice1=(int)(Math.random()*6)+1;
         //also = int(Math.random()*(max-min)+1+min;assuming that max & min is defined
         int dice2=(int)(Math.random()*6)+1;
@@ -27,12 +23,6 @@ public class Main{
         System.out.println("player rolled " +dice1+""+" +"+""+dice2+" = "+sumOfDices);
 
         return sumOfDices;
-          }
-          else {
-              System.out.println("Error Invalid input");
-
-              return 0;
-          }
     }
     //
     public static void main(String[] args)
