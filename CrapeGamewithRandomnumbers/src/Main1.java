@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main{
+public class Main1{
     static void starLine(int sLimit)
     {
         for(int i=0;i<sLimit;i++)
